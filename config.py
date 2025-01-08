@@ -13,9 +13,9 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_NOBITA_BOT_DEVLOPER_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","NOTT_YOUR_TYPE")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","AARU_MUSIC_XBOT")
+BOT_USERNAME = getenv("BOT_USERNAME","TakshuMusicBot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -27,10 +27,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001511253627))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002354298205))
 
 # Get this value from @NOBITA_ALL_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6972508083))
+OWNER_ID = int(getenv("OWNER_ID", 2117304119))
 
 
 ## Fill these variables if you're deploying on heroku.
@@ -41,15 +41,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/vishalpandeynkp/NOBITA_VIP",
+    "https://github.com/Kumar0011agra/CODERR",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NOBITA_ALL_BOT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NOBITA_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/About_Ayuu")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/About_Ayuu")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -87,7 +87,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/r55zca.jpeg"
+    "START_IMG_URL", "https://files.catbox.moe/r55zca.jpe"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/r55zca.jpeg"
