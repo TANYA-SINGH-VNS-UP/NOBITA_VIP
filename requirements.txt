@@ -9,7 +9,7 @@ future==0.18.3
 search_engine_parser
 telethon==1.33.1
 gitpython
-httpx[httpp2]
+httpx[http2]
 heroku3
 hachoir
 motor==3.3.2
