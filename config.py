@@ -13,9 +13,9 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","NOTT_YOUR_TYPE")
+OWNER_USERNAME = getenv("OWNER_USERNAME","OWNER")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","TakshuMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME","NOBITA_SONG_BOT")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -27,10 +27,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002223516578))
 
 # Get this value from @NOBITA_ALL_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 2117304119))
+OWNER_ID = int(getenv("OWNER_ID", 6972508083))
 
 
 ## Fill these variables if you're deploying on heroku.
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/About_Ayuu")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/About_Ayuu")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/heroku_club")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/nobita_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
